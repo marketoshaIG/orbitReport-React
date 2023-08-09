@@ -9,15 +9,15 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "web-vitals": "^3.3.1"
-  }, 
+  },
   "devDependencies": {
-   "react-scripts": "^5.0.1",
-   "@svgr/webpack": "^6.2.1",
-   "@babel/plugin-proposal-private-property-in-object" : "^7.21.11"
- },
- "overrides": {
-  "@svgr/webpack": "$@svgr/webpack"
- },
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@svgr/webpack": "^6.2.1",
+    "react-scripts": "^5.0.1"
+  },
+  "overrides": {
+    "@svgr/webpack": "$@svgr/webpack"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
